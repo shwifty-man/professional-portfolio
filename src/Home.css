@@ -1,0 +1,53 @@
+.Main-body {
+  height: 100%;
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+}
+.Main-body-im {
+  color: #d74a49;
+  text-shadow: 1px 1px black;
+}
+
+.Main-body-title {
+  color: #d74a49;
+  text-shadow: 1px 1px black;
+  font-size: 40px;
+}
+
+.Main-body-div-button {
+  background-color: #d74a49;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  margin-top: 25px;
+  border-radius: 8px;
+  cursor: pointer;
+
+  /* Glow */
+  box-shadow: 0 0 10px #d74a49, 0 0 20px #d74a49,
+    0 0 30px rgba(215, 74, 73, 0.7);
+
+  /* Smooth movement & glow change */
+  transition: transform 1s ease-in-out, box-shadow 1s ease-in-out;
+}
+
+.Main-body-div-button:hover {
+  box-shadow: 0 0 15px #d74a49, 0 0 30px #d74a49,
+    0 0 45px rgba(215, 74, 73, 0.8);
+}
+
+.Main-body-div-links {
+  margin-top: 20px;
+}
+
+.Main-pfp-container {
+  width: 30%;
+  overflow: hidden;
+  background-image: url('/public/IMGs/Mainpfp.jpeg');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
