@@ -1,0 +1,43 @@
+.About-container {
+    height: 70vh;
+    width: 80%;
+    margin: auto;
+    background-color: #262a32;
+}
+
+.About-container-header {
+    height: 15%;
+    padding: 0px 150px 0px 150px;
+    margin-bottom: 20px;
+}
+
+.About-container-header h2 {
+    margin-top: 40px;
+    font-size: 40px;
+}
+
+.About-container-body {
+    height: 50vh;
+    width: 100%;
+}
+
+.About-container-square-div {
+    display: flex;
+    align-items: end;
+    height: 60%;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+.About-container-square-boxes {
+    border-radius: 25px;
+    height: 80%;
+    width: 18%;
+    background-color: #1B4552;
+    box-shadow: 0 0 1px #d74a49, 0 0 10px #d74a49,
+    0 0 20px rgba(215, 74, 73, 0.7);
+    justify-items: anchor-center;
+    padding: 1%;
+    display: flex;
+    display: grid;
+}
