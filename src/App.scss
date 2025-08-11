@@ -1,0 +1,115 @@
+/* === Particle Config === */
+$color-bg: #1e1e1e;
+$color-particle: #fff;
+$spacing: 2560px;
+
+/* Animation speeds */
+$time-1: 60s;
+$time-2: 120s;
+$time-3: 180s;
+$time-4: 200s;
+
+/* === Particle generator === */
+@function particles($max) {
+    $val: 0px 0px $color-particle;
+
+    @for $i from 1 through $max {
+        $val: #{$val}, random($spacing) + px random($spacing) + px $color-particle;
+    }
+
+    @return $val;
+}
+
+@mixin particles($max) {
+    box-shadow: particles($max);
+    border-radius: 50%;
+}
+
+/* === Full Page Background === */
+.page-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: $color-bg;
+    overflow: hidden;
+    z-index: -1; // stay behind all content
+}
+
+.page-background .animation-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* === Particles === */
+.page-background .particle,
+.page-background .particle:after {
+    background: transparent;
+}
+
+.page-background .particle:after {
+    position: absolute;
+    content: "";
+    top: $spacing;
+}
+
+.page-background .particle-1 {
+    animation: animParticle $time-1 linear infinite;
+    @include particles(150);
+    height: 2px;
+    width: 2px;
+}
+
+.page-background .particle-1:after {
+    @include particles(120);
+    height: 2px;
+    width: 2px;
+}
+
+.page-background .particle-2 {
+    animation: animParticle $time-2 linear infinite;
+    @include particles(100);
+    height: 2px;
+    width: 2px;
+}
+
+.page-background .particle-2:after {
+    @include particles(80);
+    height: 3px;
+    width: 3px;
+}
+
+.page-background .particle-3:after {
+    @include particles(150);
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+}
+
+.page-background .particle-4 {
+    animation: animParticle $time-4 linear infinite;
+    @include particles(200);
+    height: 1px;
+    width: 1px;
+}
+
+.page-background .particle-4:after {
+    @include particles(100);
+    height: 1px;
+    width: 1px;
+}
+
+/* === Animation Keyframes === */
+@keyframes animParticle {
+    from {
+        transform: translateY(0px);
+    }
+
+    to {
+        transform: translateY($spacing * -1);
+    }
+}
