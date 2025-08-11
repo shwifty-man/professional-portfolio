@@ -4,6 +4,7 @@
   display: flex;
   justify-content: space-evenly;
   margin: auto;
+  margin-top: 10%;
 }
 .Main-body-im {
   color: #d74a49;
@@ -27,7 +28,7 @@
 
   /* Glow */
   box-shadow: 0 0 10px #d74a49, 0 0 20px #d74a49,
-    0 0 30px rgba(215, 74, 73, 0.7);
+    0 0 10px rgba(215, 74, 73, 0.7);
 
   /* Smooth movement & glow change */
   transition: transform 1s ease-in-out, box-shadow 1s ease-in-out;
@@ -45,9 +46,10 @@
 .Main-pfp-container {
   width: 30%;
   overflow: hidden;
-  background-image: url('/public/IMGs/Mainpfp.jpeg');
+  background-image: url("/public/IMGs/Mainpfp.jpeg");
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
+  box-shadow: 0 0 10px #d74a49, 0 0 20px #d74a49,
+    0 0 10px rgba(215, 74, 73, 0.7);
 }
-

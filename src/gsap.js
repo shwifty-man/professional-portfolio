@@ -21,18 +21,13 @@ window.addEventListener("load", () => {
   setTimeout(() => ScrollTrigger.refresh(), 250)
   window.addEventListener("resize", () => ScrollTrigger.refresh())
 
-  const sections = [
-    ".home-container",
-    ".about-container",
-    ".skills-container",
-  ]
+  const sections = [".home-container", ".about-container", ".skills-container"]
 
   sections.forEach((selector, i) => {
     const section = document.querySelector(selector)
 
-    // Assign z-index so later sections are above earlier ones
     if (section) {
-      section.style.zIndex = String(100 + i) // 100, 101, 102, ...
+      section.style.zIndex = String(100 + i)
     }
 
     if (i === 0) return // skip animating first section
@@ -46,11 +41,29 @@ window.addEventListener("load", () => {
         ease: "none",
         scrollTrigger: {
           trigger: section,
-          start: "top bottom", // starts when bottom of section hits viewport
-          end: "top top", // ends when top reaches top of viewport
+          start: "top bottom",
+          end: "top top",
           scrub: true,
         },
       }
     )
   })
+
+  // Separate animation for Main-pfp-container
+  gsap.fromTo(
+    ".Header",
+    { y: -50, opacity: 0, pointerEvents: "none" },
+    {
+      y: 0,
+      opacity: 1,
+      pointerEvents: "auto",
+      scrollTrigger: {
+        trigger: ".Main-pfp-container",
+        start: "top top",
+        end: "bottom top+=1",
+        toggleActions: "play none none reverse",
+      },
+    }
+  )
+
 })
