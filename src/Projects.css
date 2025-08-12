@@ -1,0 +1,112 @@
+#Projects-h2 {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 10%;
+}
+
+.h2-arrow {
+  font-size: 80px;
+}
+
+.Projects-container {
+  width: 80%;
+  height: 180vh;
+  margin: auto;
+  margin-top: 5%;
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 10px #d74a49, 0 0 20px #d74a49,
+    0 0 10px rgba(215, 74, 73, 0.7);
+}
+
+.Project-cards {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  height: auto;
+  margin-top: 15%;
+}
+
+.project-box h2 {
+  align-self: flex-start;
+  margin: 1rem;
+}
+
+.project-box {
+  flex: 2;
+  width: auto;
+  height: 100%;
+  background-color: #1b4552;
+  display: grid;
+  text-align-last: center;
+}
+
+.project-text {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: auto;
+}
+
+.img-div {
+  width: 100%;
+  height: 100%;
+}
+.project-image {
+  width: 100%;
+  height: auto;
+  max-width: 80%;
+  max-height: 95%;
+}
+
+.project-text {
+  width: 30%;
+  height: 50%;
+}
+
+.Projects-bottom-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+}
+
+.top-project-box {
+  box-shadow: -5px -5px 10px #d74a49, -10px -10px 20px #d74a49,
+    -5px -10px 10px rgba(215, 74, 73, 0.7);
+}
+
+.bottom-project-box {
+  box-shadow: 5px 5px 10px #d74a49, 10px 10px 20px #d74a49,
+    5px 10px 10px rgba(215, 74, 73, 0.7);
+}
+
+.Project-cards {
+  display: flex;
+  gap: 2rem;
+}
+
+.project-box {
+  flex: 2;
+}
+
+.project-text {
+  flex: 1;
+}
+
+/* HOVER CSS */
+
+.project-image {
+  transition: transform 1s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7);
+  border-radius: 8px;
+}
+
+.project-image:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+  box-shadow: 0 0 10px #d74a49, 0 0 20px #d74a49,
+    0 0 10px rgba(215, 74, 73, 0.7);
+}
