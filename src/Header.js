@@ -6,17 +6,22 @@ function Header() {
       </div>
       <div>
         <h2 className="Header-a">
-          <a href="/Main-body">Home</a>
+          <a href=":root">Home</a>
         </h2>
       </div>
       <div>
         <h2 className="Header-a">
-          <a>Projects</a>
+          <a href="#Skills-h2">Skills</a>
         </h2>
       </div>
       <div>
-        <h2 className="Header-a Header-contact">
-          <a>Contact</a>
+        <h2 className="Header-a Header-projects">
+          <a href="#Projects-h2">View my work</a>
+        </h2>
+      </div>
+      <div>
+        <h2 className="Header-a">
+          <a href="#Contact-h2">Contact</a>
         </h2>
       </div>
     </header>

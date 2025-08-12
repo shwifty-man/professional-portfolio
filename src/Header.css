@@ -27,7 +27,7 @@ a:hover {
   transition: ease-in-out 0.2s;
 }
 
-.Header-contact a {
+.Header-projects a {
   color: #d74a49;
   text-shadow: 0 0 1px #d74a49, 0 0 10px #d74a49,
     0 0 10px rgba(215, 74, 73, 0.7);
