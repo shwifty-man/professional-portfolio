@@ -2,6 +2,7 @@
   height: 70vh;
   width: 80%;
   margin: auto;
+  margin-top: 8%;
 }
 
 .About-container-header {
@@ -34,8 +35,9 @@
   width: 18%;
   background-color: #1b4552;
   box-shadow: 0 0 1px #d74a49, 0 0 10px #d74a49, 0 0 20px rgba(215, 74, 73, 0.7);
-  justify-items: anchor-center;
   padding: 1%;
   display: flex;
-  display: grid;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center
 }
