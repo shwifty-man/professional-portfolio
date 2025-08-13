@@ -1,4 +1,4 @@
-/* global gsap, ScrollTrigger, Lenis */
+/* global gsap, ScrollTrigger */
 gsap.registerPlugin(ScrollTrigger)
 
 window.addEventListener("load", () => {
@@ -6,15 +6,7 @@ window.addEventListener("load", () => {
     window.history.scrollRestoration = "manual"
   }
 
-  // Lenis smooth scrolling
-  const lenis = new Lenis({
-    autoRaf: false,
-    duration: 1.2,
-    easing: (t) => 1 - Math.pow(1 - t, 3),
-  })
-
-  gsap.ticker.add((time) => {
-    lenis.raf(time * 1000)
+  gsap.ticker.add(() => {
     ScrollTrigger.update()
   })
 
