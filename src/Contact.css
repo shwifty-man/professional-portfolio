@@ -1,0 +1,77 @@
+.Contact-container {
+  width: 80%;
+  height: 80vh;
+  margin: auto;
+  margin-top: 5%;
+  padding: 2%;
+}
+
+.Contact-message {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+}
+
+.Contact-message input {
+  width: 30%;
+  height: 13%;
+  margin-top: 10px;
+  background-color: #1b4552;
+  box-shadow: 0 0 10px #d74a49, 0 0 20px #d74a49,
+    0 0 10px rgba(215, 74, 73, 0.7);
+  color: whitesmoke;
+  font-size: large;
+  border-radius: 10px;
+}
+
+
+.Contact-message textarea {
+  max-width: 30%;
+  min-width: 30%;
+  max-height: 50%;
+  min-height: 50%;
+  margin-top: 10px;
+  background-color: #1b4552;
+  color: whitesmoke;
+  font-size: larger;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #d74a49, 0 0 20px #d74a49,
+  0 0 10px rgba(215, 74, 73, 0.7);
+  transition: ease-in-out 0.2s;
+}
+
+.Contact-message textarea:hover, input:hover {
+  box-shadow: 0 0 15px #d74a49, 0 0 20px #d74a49,
+    0 0 45px rgba(215, 74, 73, 0.8);
+}
+
+#Contact-h2 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.Contact-text {
+  display: flex;
+  justify-content: center;
+}
+
+
+.Contact-message button {
+      background-color: #d74a49;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    margin-top: 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 0 10px #d74a49, 0 0 20px #d74a49, 0 0 10px rgba(215, 74, 73, 0.7);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+
+.Contact-message button:hover {
+  box-shadow: 0 0 15px #d74a49, 0 0 30px #d74a49,
+    0 0 45px rgba(215, 74, 73, 0.8);
+}
