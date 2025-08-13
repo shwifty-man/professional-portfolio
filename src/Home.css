@@ -53,3 +53,13 @@
   box-shadow: 0 0 10px #d74a49, 0 0 20px #d74a49,
     0 0 10px rgba(215, 74, 73, 0.7);
 }
+
+svg {
+  height: 60px;
+  transition: ease-in-out 0.2s;
+}
+
+svg:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
