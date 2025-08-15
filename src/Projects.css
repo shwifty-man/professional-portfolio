@@ -110,3 +110,24 @@
   box-shadow: 0 0 10px #d74a49, 0 0 20px #d74a49,
     0 0 10px rgba(215, 74, 73, 0.7);
 }
+
+@media only screen and (max-width: 1000px) {
+  .Project-cards {
+    flex-direction: column;
+    margin-bottom: 20%;
+  }
+  .Projects-container {
+    width: 100%;
+    height: auto;
+  }
+  .project-text {
+    width: auto;
+    padding-right: 15px;
+  }
+  .Projects-bottom-container {
+    margin-left: -5%;
+  }
+  .bottom-project-text {
+    margin-left: 5%;
+  }
+}

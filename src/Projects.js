@@ -35,7 +35,7 @@ function Projects() {
               />
             </div>
           </div>
-          <div className="project-text">
+          <div className="project-text bottom-project-text">
             <p className="project-p">
               Lorem ipsum is a dummy or placeholder text commonly used in
               graphic design, publishing, and web development. Its purpose is to
