@@ -19,7 +19,7 @@ function Home() {
             <button className="Main-body-div-button">Let's Talk</button>
             <div className="Main-body-div-links">
               <h2 className="Main-body-div-links-h2">
-                Check out my{" "}
+                Check out my <br />{" "}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   x="0px"
