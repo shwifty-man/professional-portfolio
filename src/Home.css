@@ -6,6 +6,7 @@
   margin: auto;
   margin-top: 10%;
 }
+
 .Main-body-im {
   color: #d74a49;
   text-shadow: 1px 1px black;
@@ -17,6 +18,7 @@
   font-size: 40px;
 }
 
+/* ==== BUTTON ==== */
 .Main-body-div-button {
   background-color: #d74a49;
   color: white;
@@ -31,7 +33,23 @@
     0 0 10px rgba(215, 74, 73, 0.7);
 
   /* Smooth movement & glow change */
-  transition: transform 1s ease-in-out, box-shadow 1s ease-in-out;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+
+  position: relative;
+  overflow: hidden;
+}
+
+/* Pseudo-element for shine effect */
+.Main-body-div-button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 50%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.3);
+  transform: skewX(35deg);
+  transition: left 0.55s cubic-bezier(0.19, 1, 0.22, 1);
 }
 
 .Main-body-div-button:hover {
@@ -39,14 +57,19 @@
     0 0 45px rgba(215, 74, 73, 0.8);
 }
 
+.Main-body-div-button:hover::after {
+  left: 120%;
+}
+
 .Main-body-div-links {
   margin-top: 20px;
 }
 
+/* ==== PROFILE PICTURE ==== */
 .Main-pfp-container {
   width: 30%;
   overflow: hidden;
-  background-image: url("/public/IMGs/Mainpfp.jpeg");
+  background-image: url("/public/IMGs/Mainpfp.jpeg"); /* public folder path */
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
@@ -54,20 +77,22 @@
     0 0 10px rgba(215, 74, 73, 0.7);
 }
 
+/* ==== ICONS ==== */
 svg {
   height: 60px;
-  transition: ease-in-out 0.2s;
+  transition: transform 0.2s ease-in-out;
   margin-left: -10px;
 }
 
 svg:hover {
   cursor: pointer;
   transform: scale(1.1);
+  color: #d74a49;
 }
 
-
+/* ==== RESPONSIVE ==== */
 @media only screen and (max-width: 1000px) {
-    .Main-pfp-container {
-      display: none;
-    }
+  .Main-pfp-container {
+    display: none;
+  }
 }
