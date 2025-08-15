@@ -6,17 +6,19 @@ function Contact() {
         <section className="Contact-container">
           <div className="Contact-text">
             <p>
-              Lorem ipsum is a dummy or placeholder text commonly used in 
+              Lorem ipsum is a dummy or placeholder text commonly used in
               graphic design, publishing, and web development.
             </p>
           </div>
-            <form className="Contact-message">
-              <input placeholder="Name"></input>
-              <input placeholder="Email"></input>
+          <form className="Contact-message">
+            <input placeholder="Name"></input>
+            <input placeholder="Email"></input>
 
-              <textarea placeholder="Message"></textarea>
-              <button className="submit-button" type="submit">Submit</button>
-            </form> 
+            <textarea placeholder="Message"></textarea>
+            <button className="submit-button" type="submit">
+              <span>Submit</span>
+            </button>
+          </form>
         </section>
       </>
     )
