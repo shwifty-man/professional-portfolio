@@ -5,13 +5,17 @@
   box-shadow: 0 0 10px #d74a49, 0 0 20px #d74a49,
     0 0 10px rgba(215, 74, 73, 0.7);
   z-index: 2;
-  position: sticky;
+  position: fixed;
   top: 0;
   opacity: 0;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+}
+
+.Header-title {
+  position: fixed;
 }
 
 a {
@@ -23,7 +27,6 @@ a:hover {
   color: #d74a49;
   text-decoration: underline;
   cursor: pointer;
-  font-size: xx-large;
   transition: ease-in-out 0.2s;
 }
 
@@ -31,4 +34,10 @@ a:hover {
   color: #d74a49;
   text-shadow: 0 0 1px #d74a49, 0 0 10px #d74a49,
     0 0 10px rgba(215, 74, 73, 0.7);
+}
+
+@media only screen and (max-width: 1000px) {
+  a {
+    font-size: medium;
+  }
 }
