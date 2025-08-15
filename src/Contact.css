@@ -75,3 +75,10 @@
   box-shadow: 0 0 15px #d74a49, 0 0 30px #d74a49,
     0 0 45px rgba(215, 74, 73, 0.8);
 }
+
+@media only screen and (max-width: 1000px) {
+.Contact-message textarea, input {
+  min-width: 80%;
+  max-width: 100%;
+}
+}
