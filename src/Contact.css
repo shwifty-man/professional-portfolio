@@ -24,6 +24,8 @@
   color: whitesmoke;
   font-size: large;
   border-radius: 10px;
+ padding-left: 1%;
+   border: none;
 }
 
 
@@ -40,11 +42,17 @@
   box-shadow: 0 0 10px #d74a49, 0 0 20px #d74a49,
   0 0 10px rgba(215, 74, 73, 0.7);
   transition: ease-in-out 0.2s;
+  padding-left: 1%;
+    border: none;
 }
 
 .Contact-message textarea:hover, input:hover {
   box-shadow: 0 0 15px #d74a49, 0 0 20px #d74a49,
     0 0 45px rgba(215, 74, 73, 0.8);
+}
+
+.Contact-message textarea:focus-visible, input:focus-visible {
+  outline: none;
 }
 
 #Contact-h2 {
