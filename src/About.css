@@ -5,6 +5,7 @@
   padding: 0% 10% 0% 10%;
   display: flex;
   flex-direction: column;
+  background-color: rgb(32, 39, 47);
 }
 
 .About-container-header {
@@ -64,6 +65,7 @@
   }
   .About-container, .About-container-body {
     height: auto;
+    min-height: inherit;
   }
   .About-container-header {
     display: grid;

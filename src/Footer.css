@@ -1,3 +1,9 @@
 footer {
-    text-align: center;
+  text-align: center;
+  background-color: rgb(32, 39, 47);
+}
+
+footer h4 {
+  margin-top: 0;
+  margin-bottom: 0;
 }

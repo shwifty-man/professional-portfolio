@@ -1,9 +1,9 @@
 .Contact-container {
-  width: 80%;
-  height: 80vh;
+  height: 65vh;
   margin: auto;
-  margin-top: 5%;
+  padding-top: 5%;
   padding: 2%;
+  background-color: rgb(32, 39, 47);
 }
 
 .Contact-message {
@@ -50,6 +50,11 @@
 #Contact-h2 {
   text-align: center;
   font-size: 40px;
+  margin-top: 10%;
+  background-color: rgb(32, 39, 47);
+  margin-bottom: 0;
+  padding-bottom: 5%;
+  padding-top: 5%;
 }
 
 .Contact-text {
