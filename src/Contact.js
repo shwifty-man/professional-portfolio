@@ -6,8 +6,8 @@ function Contact() {
         <section className="Contact-container">
           <div className="Contact-text">
             <p>
-              Lorem ipsum is a dummy or placeholder text commonly used in
-              graphic design, publishing, and web development.
+              Have a question or want to work together? Leave your details <br />
+              and I'll get back to you as soon as possible.
             </p>
           </div>
           <form className="Contact-message">

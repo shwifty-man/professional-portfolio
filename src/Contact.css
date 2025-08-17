@@ -69,6 +69,7 @@ input:focus-visible {
 .Contact-text {
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 
 .Contact-message button {
