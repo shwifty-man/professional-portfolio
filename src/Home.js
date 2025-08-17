@@ -10,11 +10,10 @@ function Home() {
               Hello, <span className="Main-body-im">I'm</span>
             </h2>
             <h1 className="Main-body-title">Timothy Williams</h1>
-            <h2>Self tought Full Stack Engineer</h2>
+            <h2>Student in Full Stack Engineering</h2>
             <p>
-              Lorem ipsum is a dummy or placeholder text commonly
-              <br />
-              used in graphic design, publishing, and web development.
+              Passionate about building responsive, efficient, and user-friendly
+              web applications.
             </p>
           </div>
           <button className="Main-body-div-button" onClick={HandleLetsTalk}>
