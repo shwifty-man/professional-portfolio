@@ -3,9 +3,6 @@ function About() {
   return (
     <section className="About-container">
       <div className="About-container-header">
-        <h3>
-          My <span className="Main-body-im">services</span>
-        </h3>
         <h2>What I do</h2>
       </div>
       <div className="About-container-body">
