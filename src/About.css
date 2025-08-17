@@ -7,6 +7,10 @@
   flex-direction: column;
   background-color: rgb(32, 39, 47);
 }
+svg {
+  fill: #d74a49;
+  overflow: hidden;
+}
 
 .About-container-header {
   height: 15%;
