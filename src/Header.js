@@ -1,9 +1,6 @@
 function Header() {
   return (
     <header className="Header">
-      <div className="Header-title">
-        <h2 className="Header-h2-name">Timothy Williams</h2>
-      </div>
       <div>
         <h2 className="Header-a">
           <a href=":root">Home</a>

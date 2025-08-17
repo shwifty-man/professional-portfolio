@@ -1,6 +1,6 @@
 .Header {
   background-color: rgb(38, 42, 50, 0.5);
-  height: 10vh;
+  height: 6vh;
   width: 100%;
   box-shadow: 0 0 10px #d74a49, 0 0 20px #d74a49,
     0 0 10px rgba(215, 74, 73, 0.7);
@@ -12,10 +12,6 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-}
-
-.Header-title {
-  position: fixed;
 }
 
 a {
