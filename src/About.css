@@ -9,7 +9,7 @@
 }
 svg {
   fill: #d74a49;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .About-container-header {
