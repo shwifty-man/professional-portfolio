@@ -100,6 +100,7 @@
   transition: transform 0.2s ease, box-shadow 0.3s ease;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7);
   border-radius: 8px;
+  max-width: 70%;
 }
 
 .project-image:hover {
