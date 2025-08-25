@@ -48,7 +48,7 @@ function Contact() {
           </p>
         </div>
         <form className="Contact-message" onSubmit={handleSubmit}>
-          <input placeholder="Name" type="text" required />
+          <input placeholder="Name" type="text" className="top-input" required />
           <input placeholder="Email" type="email" required />
           <textarea placeholder="Message" required></textarea>
           <button className="submit-button" type="submit">
