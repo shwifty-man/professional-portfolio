@@ -1,6 +1,5 @@
 name = "my-site"
-compatibility_date = "2025-08-25"
-main = "build/index.js"
+compatibility_date = "2025-08-25"   
 
 [site]
 bucket = "./build"
