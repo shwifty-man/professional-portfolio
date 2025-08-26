@@ -1,5 +1,4 @@
-name = "my-site"
-compatibility_date = "2025-08-25"   
+name = "portfolio-2"
+compatibility_date = "2025-08-25"
 
-[site]
-bucket = "./build"
+assets = { directory = "./build" }
