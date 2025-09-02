@@ -1,4 +1,4 @@
-name = "portfolio-2"
+name = "professional-portfolio"
 compatibility_date = "2025-08-25"
 
 assets = { directory = "./build" }
