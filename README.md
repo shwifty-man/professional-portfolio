@@ -1,71 +1,64 @@
-# Getting Started with Create React App
+# 🌐 Developer Portfolio  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my personal portfolio website!  
+This site highlights who I am as a developer, the skills I bring, and (soon) the projects I’m building.  
 
-## Available Scripts
+🔗 **Live Site:** [Timothy.wtf](https://Timothy.wtf)  
+📂 **Repository:** This repo contains the source code for my portfolio.  
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## ✨ Features  
+- Responsive design that works across devices  
+- Clean, minimal UI for easy navigation  
+- **Projects section** (coming soon) – will showcase applications built with modern web technologies  
+- About Me & Contact sections so you can connect easily  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Tech Stack  
+- **Core:** HTML, CSS, JavaScript  
+- **Frontend:** React  
+- **Backend:** Node.js, Express  
+- **Tools & Workflow:** Git, Bash, Linux environment  
+- **Currently Learning:** Full-Stack Engineering course (expanding knowledge in databases, APIs, and advanced frameworks)  
+- …and more coming soon! 🚀  
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🏗️ Currently Working On  
+- Completing a **Full-Stack Engineering course**  
+- Building real-world projects to add to my portfolio  
+- Expanding my skills in backend development and databases  
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🚀 Getting Started  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Prerequisites  
+- Node.js (>= 16 recommended)  
+- npm or yarn  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Installation  
+```bash
+# Clone the repo
+git clone https://github.com/shwifty-man/professional-portfolio.git
 
-### `npm run eject`
+# Navigate into the project
+cd professional-portfolio
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Install dependencies
+npm install  
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Run the development server
+npm start  
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## 📬 Contact Me  
+💡 Let’s build something great together! I’m always open to opportunities, collaborations, or just talking tech.  
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **Portfolio:** [Timothy.wtf](https://Timothy.wtf)  
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# professional-portfolio
+- **LinkedIn:** [Linkedin.com/in/timothy--c--williams/](https://www.linkedin.com/in/timothy--c--williams/)
