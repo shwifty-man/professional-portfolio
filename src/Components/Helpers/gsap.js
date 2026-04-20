@@ -5,14 +5,12 @@ gsap.registerPlugin(ScrollTrigger)
 
 export function initHeaderAnimation() {
   const header = document.querySelector(".Header")
-  const pfp = document.querySelector(".Main-pfp-container")
   const headerOtherStuff = document.querySelectorAll(".Header .Header-a") // change selector for your other elements
 
-  if (!header || !pfp) return
+  if (!header) return
 
   const tl = gsap.timeline({
     scrollTrigger: {
-      trigger: pfp,
       start: "top top", // start animation after profile picture
       toggleActions: "play none none reverse",
     },

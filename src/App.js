@@ -1,22 +1,22 @@
-import './App.css';
-import './Header.css';
-import './Home.css';
-import './About.css';
-import './Skills.css';
-import './Projects.css';
-import './Contact.css';
-import './Footer.css';
-import './App.scss';
-import './HandleButtons.js'
-import Header from './Header.js';
-import Home from './Home.js';
-import About from'./About.js';
-import Skills from './Skills.js';
-import Projects from './Projects.js';
-import Contact from'./Contact.js';
-import Footer from'./Footer.js';
-import { useEffect } from "react";
-import { initHeaderAnimation } from './gsap.js';
+import "./Styles/App.css"
+import "./Styles/Header.css"
+import "./Styles/Home.css"
+import "./Styles/About.css"
+import "./Styles/Skills.css"
+import "./Styles/Projects.css"
+import "./Styles/Contact.css"
+import "./Styles/Footer.css"
+import "./Styles/App.scss"
+import "./Components/Helpers/HandleButtons.js"
+import Header from "./Components/MainContent/Header.js"
+import Home from "./Components/MainContent/Home.js"
+import About from "./Components/MainContent/About.js"
+import Skills from "./Components/MainContent/Skills.js"
+import Projects from "./Components/MainContent/Projects.js"
+import Contact from "./Components/SideContent/Contact.js"
+import Footer from "./Components/SideContent/Footer.js"
+import { useEffect } from "react"
+import { initHeaderAnimation } from "./Components/Helpers/gsap.js"
 
 function App() {
   useEffect(() => {
@@ -37,7 +37,7 @@ function App() {
       <div className="App">
         <Header />
         <Home />
-        <About />
+        {/* <About /> */}
         <Skills />
         <Projects />
         <Contact />
