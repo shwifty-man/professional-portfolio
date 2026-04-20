@@ -7,7 +7,7 @@ function Home() {
       <div className="Main-body-container">
         <div>
           <div className="Main-body-div-text">
-            <h2>
+            <h2> 
               Hello, <span className="Main-body-im">I'm</span>
             </h2>
             <h1 className="Main-body-title">Timothy Williams</h1>
