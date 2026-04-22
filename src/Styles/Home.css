@@ -11,7 +11,19 @@
 .Main-body-title {
   color: #d74a49;
   text-shadow: 1px 1px black;
-  font-size: 40px;
+  font-size: 30px;
+}
+
+.title-name {
+  font-size: 25px;
+      text-shadow:
+    0 0 1px #6aeaff,
+    0 0 2px #6aeaff,
+    0 0 5px #6aeaff;
+}
+
+.Main-body p {
+  text-align: center;
 }
 
 /* ==== BUTTON ==== */
@@ -91,4 +103,13 @@ svg:hover {
 
 .Main-body-div-text {
   justify-items: anchor-center;
+}
+
+@media (min-width: 768px) {
+  .Main-body-title {
+    font-size: 50px;
+  }
+  .title-name {
+    font-size: 40px;
+  }
 }

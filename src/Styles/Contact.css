@@ -15,11 +15,14 @@
 }
 
 .Contact-message input {
-  width: 30%;
-  height: 13%;
-  margin-top: 10px;
+  min-width: 80%;
+  max-width: 100%;
+
+  margin-top: 2%;
   background-color: #1b4552;
-  box-shadow: 0 0 10px #d74a49, 0 0 20px #d74a49,
+  box-shadow:
+    0 0 10px #d74a49,
+    0 0 20px #d74a49,
     0 0 10px rgba(215, 74, 73, 0.7);
   color: whitesmoke;
   font-size: large;
@@ -28,17 +31,25 @@
   border: none;
 }
 
+.submit-span {
+  text-align: center;
+}
+
 .Contact-message textarea {
-  max-width: 30%;
-  min-width: 30%;
+  min-width: 80%;
+  max-width: 100%;
+
   max-height: 50%;
   min-height: 50%;
-  margin-top: 10px;
+  margin-top: 2%;
+  margin-bottom: 1%;
   background-color: #1b4552;
   color: whitesmoke;
   font-size: larger;
   border-radius: 5px;
-  box-shadow: 0 0 10px #d74a49, 0 0 20px #d74a49,
+  box-shadow:
+    0 0 10px #d74a49,
+    0 0 20px #d74a49,
     0 0 10px rgba(215, 74, 73, 0.7);
   transition: ease-in-out 0.2s;
   padding-left: 1%;
@@ -47,7 +58,9 @@
 
 .Contact-message textarea:hover,
 input:hover {
-  box-shadow: 0 0 15px #d74a49, 0 0 20px #d74a49,
+  box-shadow:
+    0 0 15px #d74a49,
+    0 0 20px #d74a49,
     0 0 45px rgba(215, 74, 73, 0.8);
 }
 
@@ -64,6 +77,11 @@ input:focus-visible {
   margin-bottom: 0;
   padding-bottom: 5%;
   padding-top: 5%;
+
+  text-shadow:
+    0 0 1px #6aeaff,
+    0 0 2px #6aeaff,
+    0 0 5px #6aeaff;
 }
 
 .Contact-text {
@@ -77,24 +95,31 @@ input:focus-visible {
   color: white;
   border: none;
   padding: 12px 24px;
-  margin-top: 25px;
   border-radius: 8px;
   cursor: pointer;
 
   /* Glow */
-  box-shadow: 0 0 10px #d74a49, 0 0 20px #d74a49,
+  box-shadow:
+    0 0 10px #d74a49,
+    0 0 20px #d74a49,
     0 0 10px rgba(215, 74, 73, 0.7);
 
   /* Smooth movement & glow change */
-  transition: transform 1s ease-in-out, box-shadow 1s ease-in-out;
+  transition:
+    transform 1s ease-in-out,
+    box-shadow 1s ease-in-out;
 
   position: relative;
   overflow: hidden;
+  width: clamp(180px, 10%, 400px);
+  padding: 20px;
 }
 
 /* Hover animation same as Main-body-div-button */
 .Contact-message button:hover {
-  box-shadow: 0 0 15px #d74a49, 0 0 30px #d74a49,
+  box-shadow:
+    0 0 15px #d74a49,
+    0 0 30px #d74a49,
     0 0 45px rgba(215, 74, 73, 0.8);
   transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
 }
@@ -116,15 +141,18 @@ input:focus-visible {
   left: 120%;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (min-width: 765px) {
   .Contact-message textarea {
-    min-width: 80%;
-    max-width: 100%;
+    max-width: 30%;
+    min-width: 30%;
     padding-left: 5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
   }
   .Contact-message input {
-    min-width: 80%;
-    max-width: 100%;
+    min-width: 30%;
+    height: 13%;
     padding-left: 5%;
+    margin-top: 1%;
   }
 }
