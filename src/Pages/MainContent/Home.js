@@ -1,5 +1,5 @@
-import HandleLetsTalk from "../Helpers/HandleButtons.js"
-import { GithubIcon, LinkedinIcon } from "../Icons.js"
+import HandleLetsTalk from "../../Components/Helpers/HandleButtons.js"
+import { GithubIcon, LinkedinIcon } from "../../Components/Icons.js"
 
 function Home() {
   return (
@@ -7,11 +7,11 @@ function Home() {
       <div className="Main-body-container">
         <div>
           <div className="Main-body-div-text">
-            <h2> 
+            <h2>
               Hello, <span className="Main-body-im">I'm</span>
             </h2>
             <h1 className="Main-body-title">Timothy Williams</h1>
-            <h2>Student in Full Stack Engineering</h2>
+            <h2 className="title-name">Full Stack Engineer</h2>
             <p>
               Passionate about building responsive, efficient, and user-friendly
               web applications.
