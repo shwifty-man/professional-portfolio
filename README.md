@@ -1,64 +1,71 @@
-# 🌐 Developer Portfolio  
+# Developer Portfolio
 
-Welcome to my personal portfolio website!  
-This site highlights who I am as a developer, the skills I bring, and (soon) the projects I’m building.  
-
-🔗 **Live Site:** [Timothy.wtf](https://Timothy.wtf)  
-📂 **Repository:** This repo contains the source code for my portfolio.  
+Live site: https://Timothy.wtf  
+Repo: Source code for my personal portfolio
 
 ---
 
-## ✨ Features  
-- Responsive design that works across devices  
-- Clean, minimal UI for easy navigation  
-- **Projects section** (coming soon) – will showcase applications built with modern web technologies  
-- About Me & Contact sections so you can connect easily  
+## About
+
+I’m a full-stack developer who’s completed a structured engineering course and built a couple of full-stack applications along the way.
+
+I enjoy working on both frontend and backend — building things that actually function end-to-end and feel good to use.
 
 ---
 
-## 🛠️ Tech Stack  
-- **Core:** HTML, CSS, JavaScript  
-- **Frontend:** React  
-- **Backend:** Node.js, Express  
-- **Tools & Workflow:** Git, Bash, Linux environment  
-- **Currently Learning:** Full-Stack Engineering course (expanding knowledge in databases, APIs, and advanced frameworks)  
-- …and more coming soon! 🚀  
+## What I’ve worked with
+
+### Frontend
+
+- HTML, CSS, JavaScript (ES6+)
+- React
+- Responsive design (mobile-first)
+- Basic accessibility practices
+
+### Backend
+
+- Node.js
+- Express
+- REST APIs
+- Handling JSON data and middleware
+
+### Database
+
+- PostgreSQL
+- SQL
+- CRUD operations
+- Basic data modeling
+
+### Tools
+
+- Git / GitHub
+- Linux terminal
+- Command line workflows
+- Figma (basic UI planning)
 
 ---
 
-## 🏗️ Currently Working On  
-- Completing a **Full-Stack Engineering course**  
-- Building real-world projects to add to my portfolio  
-- Expanding my skills in backend development and databases  
+## Projects
+
+I’ve built 2 full-stack projects using React, Node, Express, and PostgreSQL.
+
+They include things like API integration, database interaction, and full CRUD functionality. Both are accessible through my portfolio and Github.
 
 ---
 
-## 🚀 Getting Started  
+## What I’m focused on
 
-### Prerequisites  
-- Node.js (>= 16 recommended)  
-- npm or yarn  
+Right now I’m just getting better at:
 
-### Installation  
-```bash
-# Clone the repo
-git clone https://github.com/shwifty-man/professional-portfolio.git
+- Writing cleaner backend logic
+- Structuring full-stack apps properly
+- Improving how I design and connect systems
 
-# Navigate into the project
-cd professional-portfolio
+---
 
-# Install dependencies
-npm install  
+## Contact
 
-# Run the development server
-npm start  
+If you want to reach out:
 
-```
-
-
-## 📬 Contact Me  
-💡 Let’s build something great together! I’m always open to opportunities, collaborations, or just talking tech.  
-
-- **Portfolio:** [Timothy.wtf](https://Timothy.wtf)  
-
-- **LinkedIn:** [Linkedin.com/in/timothy--c--williams/](https://www.linkedin.com/in/timothy--c--williams/)
+- Portfolio: https://Timothy.wtf
+- LinkedIn: https://www.linkedin.com/in/timothy--c--williams/
