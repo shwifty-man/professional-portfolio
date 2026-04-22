@@ -45,6 +45,7 @@ function Skills() {
               "Command Line",
               "Linux",
               "Figma",
+              "AI Integration",
             ]}
           />
         </section>
