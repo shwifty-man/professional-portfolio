@@ -8,11 +8,11 @@ import "./Styles/Contact.css"
 import "./Styles/Footer.css"
 import "./Styles/App.scss"
 import "./Components/Helpers/HandleButtons.js"
-import Header from "./Components/MainContent/Header.js"
-import Home from "./Components/MainContent/Home.js"
-import About from "./Components/MainContent/About.js"
-import Skills from "./Components/MainContent/Skills.js"
-import Projects from "./Components/MainContent/Projects.js"
+import Header from "./Pages/MainContent/Header.js"
+import Home from "./Pages/MainContent/Home.js"
+import About from "./Pages/MainContent/About.js"
+import Skills from "./Pages/MainContent/Skills.js"
+import Projects from "./Pages/MainContent/Projects.js"
 import Contact from "./Components/SideContent/Contact.js"
 import Footer from "./Components/SideContent/Footer.js"
 import { useEffect } from "react"
@@ -37,7 +37,6 @@ function App() {
       <div className="App">
         <Header />
         <Home />
-        {/* <About /> */}
         <Skills />
         <Projects />
         <Contact />
