@@ -3,7 +3,7 @@ function Header() {
     <header className="Header">
       <div>
         <h2 className="Header-a">
-          <a href=":root">Home</a>
+          <a href="Main-body-div-text h2">Home</a>
         </h2>
       </div>
       <div>
