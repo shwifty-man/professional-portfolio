@@ -4,9 +4,9 @@ import { GithubIcon, LinkedinIcon } from "../../Components/Icons.js"
 function Home() {
   return (
     <section className="Main-body">
+          <div id="top"></div> 
       <div className="Main-body-container">
         <div>
-          <div id="top"></div> 
           <div className="Main-body-div-text">
             <h2>
               Hello, <span className="Main-body-im">I'm</span>
