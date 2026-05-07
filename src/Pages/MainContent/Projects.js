@@ -15,7 +15,7 @@ function Projects() {
         />
         <ProjectCard
           Url="https://github.com/shwifty-man/Sl_Quest_Tracker/"
-          title="FeelClear"
+          title="QuestTracker"
           image="/IMGs/QuestTracker.jpg"
           description="QuestTracker is an Android app that turns 
           daily tasks into RPG-style quests—earn EXP by completing them, 
