@@ -6,6 +6,7 @@ function Home() {
     <section className="Main-body">
       <div className="Main-body-container">
         <div>
+          <div id="top"></div> 
           <div className="Main-body-div-text">
             <h2>
               Hello, <span className="Main-body-im">I'm</span>
